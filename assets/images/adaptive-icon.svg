@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#4A90E2"/>
+  
+  <!-- Car silhouette -->
+  <path
+    d="M256 512
+       C256 448 288 416 352 416
+       H672
+       C736 416 768 448 768 512
+       V576
+       C768 640 736 672 672 672
+       H352
+       C288 672 256 640 256 576
+       V512Z"
+    fill="white"
+  />
+  
+  <!-- Gas nozzle -->
+  <path
+    d="M448 416
+       V352
+       C448 320 464 304 496 304
+       H528
+       C560 304 576 320 576 352
+       V416"
+    stroke="white"
+    strokeWidth="48"
+    strokeLinecap="round"
+  />
+  
+  <!-- Gas hose -->
+  <path
+    d="M512 304
+       V224"
+    stroke="white"
+    strokeWidth="48"
+    strokeLinecap="round"
+  />
+  
+  <!-- Nozzle top -->
+  <path
+    d="M432 224
+       H592"
+    stroke="white"
+    strokeWidth="48"
+    strokeLinecap="round"
+  />
+  
+  <!-- Wheels -->
+  <circle cx="384" cy="544" r="32" fill="white"/>
+  <circle cx="640" cy="544" r="32" fill="white"/>
+</svg> 
